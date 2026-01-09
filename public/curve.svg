@@ -1,0 +1,8 @@
+<svg viewBox="0 0 300 100">
+  <path
+    d="M10 70 C 60 20, 120 20, 170 50 S 250 90, 290 10"
+    stroke="#5A6ACF"
+    strokeWidth="3"
+    fill="none"
+  />
+</svg>
