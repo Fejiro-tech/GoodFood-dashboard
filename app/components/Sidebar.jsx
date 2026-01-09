@@ -59,12 +59,19 @@ const Sidebar = () => {
         <p className="pt-8 text-sm text-gray-400">OTHERS</p>
 
         {otherNavbtns.map((item) => {
+          const isActive = pathname === item.href;
 
           return (
             <Link
             key={item.name}
              href={item.href}
-             className="flex gap-4 items-center px-4 py-2"
+             className={`flex gap-4 items-center px-4 py-2 rounded-lg transition
+                ${
+                  isActive
+                    ? "bg-[#E8ECFD] text-[#5A6ACF] font-semibold"
+                    : "hover:bg-white"
+                }
+                `}
 
              >
               <Image src={item.icon} alt={item.name} width={20} height={24} />

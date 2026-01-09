@@ -13,13 +13,13 @@ const foods = [
 
 export default function FoodList() {
   return (
-    <div className="bg-white py-10 px-4">
+    <div className="bg-white py-10  px-4 lg:px-1">
       <h3 className="font-semibold mb-4">Most Ordered Food</h3>
       <p className="text-sm text-gray-500 mb-6">Adipiscing elit, sed do eiusmod tempor</p>
 
       <ul className="space-y-4">
         {foods.map((food, i) => (
-          <li key={i} className="flex items-center gap-10">
+          <li key={i} className="flex items-center gap-4 lg:gap-10">
             <div className="w-12 h-12 rounded-full overflow-hidden flex-shrink-0 bg-gray-100">
               <Image 
                 src={food.image} 

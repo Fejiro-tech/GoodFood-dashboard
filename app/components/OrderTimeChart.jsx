@@ -4,7 +4,7 @@ import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
 
 export default function OrderTimeChart() {
   const data = [
-    { name: "Afternoon", value: 40, color: "#6B7FED", time: "1pm -4pm" },
+    { name: "Afternoon", value: 40, color: "#6B7FED", time: "1pm -4pm", number: "1,890" },
     { name: "Evening", value: 32, color: "#E8ECFD" },
     { name: "Morning", value: 28, color: "#9BA9F3" },
   ];
@@ -43,7 +43,7 @@ export default function OrderTimeChart() {
         <div className="absolute top-24 left-1/2 transform -translate-x-1/2 -translate-y-full bg-[#37375C] text-white p-4 rounded-lg shadow-lg border border-gray-200">
           <h4 className="font-bold ">{selectedSlice.name}</h4>
            <p className="">{selectedSlice.time}</p>
-          <p className="">{selectedSlice.value}% of orders</p>
+          <p className="">{selectedSlice.number} orders</p>
         </div>
       )}
 
