@@ -10,18 +10,18 @@ import {
 } from "recharts";
 
 const data = [
-  { day: "01", current: 45, last: 30 },
-  { day: "02", current: 30, last: 25 },
-  { day: "03", current: 35, last: 40 },
-  { day: "04", current: 25, last: 35 },
-  { day: "05", current: 45, last: 35 },
-  { day: "06", current: 35, last: 35 },
-  { day: "07", current: 45, last: 35 },
-  { day: "08", current: 40, last: 35 },
-  { day: "09", current: 45, last: 35 },
-  { day: "10", current: 25, last: 35 },
-  { day: "11", current: 35, last: 35 },
-  { day: "12", current: 45, last: 35 },
+  { day: "01", current: 30, last: 20 },
+  { day: "02", current: 20, last: 30 },
+  { day: "03", current: 28, last: 18 },
+  { day: "04", current: 26, last: 28 },
+  { day: "05", current: 32, last: 26 },
+  { day: "06", current: 35, last: 18 },
+  { day: "07", current: 29, last: 18 },
+  { day: "08", current: 20, last: 30 },
+  { day: "09", current: 22, last: 18 },
+  { day: "10", current: 26, last: 18 },
+  { day: "11", current: 32, last: 25 },
+  { day: "12", current: 35, last: 20 },
 ];
 
 export default function RevenueChart() {
