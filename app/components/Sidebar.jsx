@@ -32,7 +32,7 @@ const Sidebar = () => {
 
   return (
     <aside className="bg-[#F1F2F7] w-64 p-10 h-screen">
-      <nav className="space-y-6 text-gray-600">
+      <nav className="space-y-2 text-gray-600">
         <p className="text-gray-400 mb-6 text-sm">MENU</p>
 
         {navItems.map((item) => {

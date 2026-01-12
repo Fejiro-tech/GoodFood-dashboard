@@ -40,9 +40,9 @@ export default function OrderTimeChart() {
       </ResponsiveContainer>
 
       {selectedSlice && (
-        <div className="absolute top-24 left-1/2 transform -translate-x-1/2 -translate-y-full bg-[#37375C] text-white p-4 rounded-lg shadow-lg border border-gray-200">
+        <div className="absolute top-24 left-1/2 transform -translate-x-1/2 -translate-y-full bg-[#37375C] text-white p-4 rounded-lg shadow-lg border border-gray-200 ">
           <h4 className="font-bold ">{selectedSlice.name}</h4>
-           <p className="">{selectedSlice.time}</p>
+           <p className="text-gray-400 pb-2">{selectedSlice.time}</p>
           <p className="">{selectedSlice.number} orders</p>
         </div>
       )}

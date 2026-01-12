@@ -36,12 +36,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex flex-col lg:flex-row">
-        <div className="lg:px-8 lg:border-r-2 lg:border-[#F1F2F7]">
+      <div className="flex flex-col lg:flex-row ">
+        <div className="lg:px-8 lg:border-r-2 lg:border-[#F1F2F7] border-b-2 border-[#F1F2F7] lg:border-b-0">
           <Rating />
         </div>
 
-        <div className="lg:px-12 lg:border-r-2 lg:border-[#F1F2F7]">
+        <div className="lg:px-12 lg:border-r-2 lg:border-[#F1F2F7] border-b-2 border-[#F1F2F7] lg:border-b-0">
           <FoodList />
         </div>
 

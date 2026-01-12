@@ -20,11 +20,11 @@ const TopBar = ({ setSidebarOpen }) => {
         <input
           type="text"
           placeholder="Search"
-          className="w-full max-w-200 bg-[#F1F2F7] px-4 py-2 rounded-md outline-none"
+          className="w-full max-w-200 lg:max-w-150 bg-[#F1F2F7] px-4 py-2 rounded-md outline-none"
         />
       </div>
 
-      <div className="flex items-center gap-2 lg:gap-8 px-4 lg:px-10">
+      <div className="flex items-center lg:gap-4 gap-2 px-4 lg:px-10">
         <div className="bg-[#FFE6CC] h-12 w-12 rounded-full flex items-center justify-center">
           <Image src={burgerImg} alt="burger" width={24} height={20} />
         </div>
@@ -34,7 +34,7 @@ const TopBar = ({ setSidebarOpen }) => {
           <Image src={arrowLogo} alt="arrow" width={10} height={10} />
         </p>
         
-        <Image src={notifLogo} alt="notification" width={16} height={16} className="ml-2"/>
+        <Image src={notifLogo} alt="notification" width={16} height={16} className="ml-4"/>
       </div>
     </header>
   );
