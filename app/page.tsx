@@ -15,7 +15,7 @@ export default function Home() {
       </h2>
 
       <div className="flex flex-col lg:flex-row border-b-2 border-[#F1F2F7]">
-        <div className="flex-2 lg:border-r-2 border-[#F1F2F7] pr-8 pb-8">
+        <div className="flex-2 lg:border-r-2 border-[#F1F2F7] lg:pr-8 pb-8">
           <StatCard
             title="Revenue"
             value="IDR 7.852.000"
